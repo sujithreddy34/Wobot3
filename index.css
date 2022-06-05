@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  background-image: url(./images/background.png);
+  height: 100vh;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+
+.Hero{
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  
+  padding: 80px 400px; */
+ 
+
+background: #FFFFFF;
+
+
+box-shadow: 4px 4px 20px rgba(157, 157, 157, 0.12);
+border-radius: 15px;
+
+/* margin-top: 53px;
+margin-left: 214px;
+margin-right: 214px;
+ height: 680px; 
+margin-bottom: 200px; */
+/* width: 560px;
+height: 611px;
+left: 440px;
+top: 93px; */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px 91px;
+gap: 24px;
+
+position: absolute;
+width: 560px;
+height: 680px;
+left: 440px;
+top: 93px;
+
+ 
+}
+
+form{
+  display:flex;
+  align-items: center;
+ 
+  flex-direction:column;
+margin-bottom: 50px;
+}
+
+.hero-img{
+ width:51px;
+ height: 48px;
+ padding: 0px 180px;
+}
+
+.hero-header{
+  font-family: 'Montserrat', sans-serif;
+}
+
+label{
+  margin-right: 230px;
+}
+
+.label-in{
+  margin-right:280px;
+}
+.btn {
+  margin-bottom:50px;
+}
+
+h1{
+  text-align:center;
+}
+
+p{
+  text-align:center;
+  line-height:0.8
+}
+
+.div-form1{
+  margin-top: 30px;
+}
+.div-form2{
+  margin-top: 30px;
+}
+.div-form3{
+  margin-top: 30px;
+}
